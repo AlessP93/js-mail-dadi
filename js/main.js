@@ -13,8 +13,10 @@ for (let i = 0; i < listaEmail.length; i++ ) {
 
 if (controllore) {
     console.log("La tua email è valida");
+    alert("Puoi accedere")
 } else {
     console.log("La tua email non è valida");
+    alert("Non puoi accedere")
 }
 
 document.getElementById("box").innerHTML = "Bentornato la tua email è valida !"

@@ -3,6 +3,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 #box {
@@ -10,10 +13,7 @@ body {
     height: 200px;
     border-radius: 20px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     color: rgb(0, 249, 216);
-    justify-content: center;
-    align-items: center;
-    margin: auto;
     font-size: 50px;
 }
